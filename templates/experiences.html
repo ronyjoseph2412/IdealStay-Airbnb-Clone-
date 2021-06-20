@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title></title>
+  </head>
+  <body>
+    <h1>{% block body %}
+<div class="container">
+<body>    
+<header>
+  <nav class="navbar navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Experiences</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active carousel-item-start">
+         <img src="https://source.unsplash.com/1200x600/?mountainroads" class="d-block w-100" alt="...">
+
+        <div class="container ">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item-next carousel-item-start">
+         <img src="https://source.unsplash.com/1200x600/?vineyards" class="d-block w-100" alt="...">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+     <img src="https://source.unsplash.com/1200x600/?hongkong" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing my-4">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="/static/tr.jfif" class="d-block w-100" alt="...">
+        <h2>Turkey</h2>
+        <p></p>
+        <p><a class="btn btn-danger" href="/turkey">Book Now »</a></p> 
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/static/greece.jfif" class="d-block w-100" alt="...">
+        <h2>Greece</h2>
+        <p></p>
+        <p><a class="btn btn-danger" href="/grece">Book Now »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/static/por.jfif" class="d-block w-100" alt="...">
+        <h2>Portugal</h2>
+        <p></p>
+        <p><a class="btn btn-danger" href="/portugal">Book Now »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+     <div class="row">
+      <div class="col-lg-4">
+        <img src="/static/swis.jfif" class="d-block w-100" alt="...">
+        <h2>Switzerland</h2>
+        <p></p>
+        <p><a class="btn btn-danger" href="/swis">Book Now »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/static/nz.jfif" class="d-block w-100" alt="...">
+        <h2>New Zealand</h2>
+        <p></p>
+        <p><a class="btn btn-danger" href="/nz">Book Now »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/static/dubai.jfif" class="d-block w-100" alt="...">
+        <h2>UAE(dubai)</h2>
+        <p></p>
+        <p><a class="btn btn-danger" href="/dubai">Book Now »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Berlin, Germany. <span class="text-muted">Explore the Graffiti City by Bike.</span></h2>
+        <p class="lead">Right in the heart of Berlin you’ll find a sweet little street art hotspot. Tucked away in a little alley off Rosenthaler Strasse near Alexanderplatz, you’ll find Haus Schwarzenberg.
+       Owned by a non-profit art organisation, this vibrant cultural pocket is one of the best places to see street art in Berlin. Quite surprising actually since it’s located in a more commercial shopping district.
+       looking into the alley of Haus Schwarzenberg on Rosenthaler Strasse which is covered in street art.
+        <img src="/static/berlin.jfif" class="d-block w-100" alt="..."></p>
+      </div>
+      <div class="col-md-5">
+      <img src="/static/german.jfif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">Amsterdam, Netherlands.</span></h2>
+        <p class="lead">Amsterdam Experience Cruise? A cruise is a must-do activity when you visit this beautiful city. Learn more about the history of the city and view the most beautiful monuments. Order a drink on board or ask our stewards for his or her favorite bars in town!
+    Enjoy the sun, canals and the view!Discover Amsterdam from a different perspective. Cruise along on a comfortable boat, while enjoying perfect view – ideal for taking scenic photos.
+    View different houses, bridges and monuments from the water. Enjoy the intimacy of this small tour and ask any question you wish to have answered about our beautiful city Amsterdam!.Buy drinks from the onboard bar and enjoy them whilst taking in views of traditional Dutch houses and twinkling lights.
+    <img src="/static/kk.jfif" class="d-block w-100" alt="..."></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="/static/am.jfif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Coimbatore,India.</span></h2>
+        <p class="lead">Though most simply pass through Coimbatore on their way west, tarriers are rewarded with a lively street-food scene, city museums, and parks. Add in easy access to the hilltop temples surrounding the industrial city, and you have a raw gem waiting to be discovered.
+            Coimbatore, Known as “THE MANCHESTER OF SOUTH INDIA” is a well known city in India. It is reputed for its pleasant climate and the warm nature. It is one of the top most Industrial cities of India.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="/static/coim.jfif" class="d-block w-100" alt="...">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2011–2038 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      
+  
+
+</body>
+{% endblock body %}</h1>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

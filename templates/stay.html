@@ -1,0 +1,246 @@
+
+{% extends 'base.html' %}
+   {% block title %}Places to Stay{% endblock title %} 
+{% block body %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+</head>
+
+<body class="bg-dark"><!--
+<div class='container-fliud my-2 '>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="static/home.jpg" class="d-block w-100" alt="..."  width="1680" height="840">
+              <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 style="color:black;"><b>Best Deals in your Town</b></h1>
+            <p style="color:black;"><b>Find your next Holiday Home!</b></p>
+            <p><a class="btn btn-lg btn-primary" href="/stay">Book Now!</a></p>
+          </div>
+        </div>
+        </div>
+
+    
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/hostf.jpg" class="d-block w-100" alt="..." width="1680" height="840">
+      <div class="container">
+          <div class="carousel-caption">
+            <h1 style="color:black;"><b>Become a Host</b></h1>
+            <p style="color:black;"><b>Join thousands of hosts renting their space to unlock new Experiences.</b> </p>
+            <p><a class="btn btn-lg btn-primary" href="/host">Learn more</a></p>
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="static/explore.jpg" class="d-block w-100" alt="..." width="1680" height="840">
+      <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 style="color:black;"><b>Explore the Greatest Experiences</b></h1>
+            <p style="color:black;"><b>Experiences which are specially curated for you!</b></p>
+            <p><a class="btn btn-lg btn-primary" href="/exp">Discover Now</a></p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>  !-->
+</div><br><br>
+    <h1>
+        <center><span class="badge bg-success text-dark">Explore the cities Nearby</span></center>
+    </h1>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <div class="container my-4 mx-200">
+        <div class="album py-5 bg-dark">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="static/boot4.jpeg">
+
+
+                            <div class="card-body">
+                                <h1>
+                                    <center><span class="badge text-dark">Lucknow</span></center>
+                                </h1>
+
+                                <a href="lucknow">
+                                    <center><button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </center>
+                                </a>
+
+
+                                <right></right><small class="text-muted">4 Places available</small></right>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="static/boot5.jpg">
+
+
+                            <div class="card-body">
+                                <h1>
+                                    <center><span class="badge text-dark">Raipur</span></center>
+                                </h1>
+
+                                <a href="/raipur">
+                                    <center><button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </center>
+                                </a>
+
+
+                                <right></right><small class="text-muted">3 Places available</small></right>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="static/boot6.jpg">
+
+
+                            <div class="card-body">
+                                <h1>
+                                    <center><span class="badge text-dark">Hyderabad</span></center>
+                                </h1>
+
+                                <a href="/hyd">
+                                    <center><button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </center>
+                                </a>
+
+
+                                <right></right><small class="text-muted">2 Places available</small></right>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <h1>
+        <center><span class="badge bg-success text-dark">Your Next Holiday Home</span></center>
+    </h1>
+    <div class="container my-4 mx-200">
+        <div class="album py-5 bg-dark">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="static/boot8.jpg">
+
+
+                            <div class="card-body">
+                                <h1>
+                                    <center><span class="badge text-dark">Nainital</span></center>
+                                </h1>
+
+                                <a href="/ntl">
+                                    <center><button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </center>
+                                </a>
+
+
+                                <right></right><small class="text-muted">4 Places available</small></right>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="static/boot7.jpg">
+
+
+                            <div class="card-body">
+                                <h1>
+                                    <center><span class="badge text-dark">Gangtok</span></center>
+                                </h1>
+
+                                <a href="/gangtok">
+                                    <center><button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </center>
+                                </a>
+
+
+                                <right></right><small class="text-muted">3 Places available</small></right>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="static/boot9.jpg">
+
+
+                            <div class="card-body">
+                                <h1>
+                                    <center><span class="badge text-dark">Shimla</span></center>
+                                </h1>
+
+                                <a href="/shimla">
+                                    <center><button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </center>
+                                </a>
+
+
+                                <right></right><small class="text-muted">2 Places available</small></right>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+<footer class="pt-5 my-5 text-muted border-top text-center px-3"style="text-color:rgb(0,0,0)">
+   <b> Created by the IdealStay team &middot; &copy; 2021 </b> 
+  </footer>
+</html>
+{% endblock body %}
